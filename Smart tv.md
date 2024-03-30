@@ -2,23 +2,23 @@
 #include<string.h>
 #include<stdlib.h>
 using namespace std; 
-class Car{ 
+class printerlar{ 
  private : 
- string nomi,avtosaloni,diskasi; 
- int yili; 
- int baloni; 
- int saloni; 
+ string nomi,brendi,modeli; 
+ int chop_etish_tezligi; 
+ int ishlash_funksiyasi; 
+ int chop_etish_turi; 
  float narxi; 
  public : 
   void show() 
   { 
    static int k=0; 
-   cout<<++k<<" - mashina"<<endl<<endl; 
-   cout<<"Avtosaloni: "<<avtosaloni<<endl;
+   cout<<++k<<" - nomi"<<endl<<endl; 
+   cout<<"Brend nomi: "<<brendi<<endl;
    cout<<"Nomi: "<<nomi<<endl;  
-   cout<<"Yili: "<<yili<<endl; 
-   cout<<"Diskasi: "<<diskasi<<endl; 
-   cout<<"Baloni: "<<baloni<<endl; 
+   cout<<"Siz chopetish tezligini tanlang"<<chop_etish_tezligi<<endl; 
+   cout<<"ishlash funksiyasi: "<<ishlash_funksiyasi<<endl; 
+   cout<<"chop etish turi: "<<chop_etish_turi<<endl; 
    cout<<"Pozitsiyasi: "<<saloni<<endl; 
    cout<<"Narxi: "<<narxi<<endl; 
   }; 
